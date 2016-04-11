@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=maxDelayMSecs\ minDelayMsecs
+comment0.target=GridPlotterGUI(int,\ int)
+comment0.text=\ Constructs\ the\ graphical\ user\ interface\ for\ the\ Grid\r\n\ \ Plotter\ program.\r\n\ \ \ \ @param\ maxDelayMsecs\ longest\ delay\ value\ for\ slider,\ in\ milliseconds\r\n\ \ \ \ @param\ minDelayMsecs\ shortest\ delay\ value\ for\ slider,\ in\ milliseconds\r\n
+comment1.params=title\ viewingWidth\ viewingHeight\ minCellSize
+comment1.target=void\ constructWindowContents(java.lang.String,\ int,\ int,\ int)
+comment1.text=Inherit\ description\ from\ GridAppFrame.
+comment2.params=
+comment2.target=javax.swing.JPanel\ defineContent()
+comment2.text=Inherit\ description\ from\ GridAppFrame.
+comment3.params=loc
+comment3.target=void\ showLocation(edu.kzoo.grid.Location)
+comment3.text=\ Shows\ the\ contents\ of\ a\ single\ location\ in\ the\ grid.\ \ This\ allows\r\n\ \ for\ speedier\ display\ than\ the\ showGrid\ method\ because\ it\ only\ updates\r\n\ \ the\ contents\ of\ the\ one,\ specified\ location.\r\n\ \ (Precondition\:\ must\ have\ called\ <code>setGrid</code>.)\r\n
+numComments=4
